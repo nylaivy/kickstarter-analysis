@@ -7,11 +7,11 @@ The purpose of this analysis is to figure out how different Kickstarter campaign
 ## Analysis and Challenges
 To analyze the relationship between theater campaign outcomes and launch dates I created a pivot table with rows based on months and columns based on the number of failed and successful outcomes respectively. Campaigns that have reached their goal amount are considered successful while those that have not are considered failed. This pivot table was filtered by parent category to only include theater campaigns. A line graph (shown below) was then created from this pivot table to visualize the relationship between campaign outcomes and launch month.
 
-![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](/Challenge/Challenge_Resources/Theater_Outcomes_vs_Launch.png)
 
 To analyze the relationship between play campaigns and funding goals I created a line graph of the percentage of successful, failed, and canceled plays based on the funding goal amount. The COUNTIFS excel function was used to collect the outcome and goal data for the plays subcategory for the line graph. The number and total of successful, failed, and canceled outcomes was used to find the percentage of each outcome for campaign goals in increments of approximately 5000 dollars. The resulting line graph can be viewed below.
 
-![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](/Challenge/Challenge_Resources/Outcomes_vs_Goals.png)
 
 The biggest challenge was using the COUNTIFS function on excel since I had never used it before. My formula when using this function was relatively long and needed to be used in 36 cells of my spreadsheet to help gather the percentages for the line graph showing the relationship between play campaign outcomes and funding goals. While this was a very intricate and time consuming part of my analysis, I overcame this challenge by getting used to using the function each time it was used. I slowly became comfortable with using this function and as I became comfortable it became quicker to use.
 
